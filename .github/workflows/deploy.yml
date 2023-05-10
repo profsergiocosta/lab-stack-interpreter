@@ -6,7 +6,7 @@ on:
 name: Build and Deploy
 jobs:
   build:
-    runs-on: scalingUmbrella
+    runs-on: lab-stack
     timeout-minutes: 20
     steps:
       - name: Checkout
